@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: phantom-scan
+Version: 0.1.0a0
+Summary: Adaptive timing-based stealth network scanner
+Author: Nyoul Labs
+Author-email: Nyoul Labs <nyuollabs.dev@gmail.com>
+Maintainer-email: Nyoul Labs <nyuollabs.dev@gmail.com>
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: scapy>=2.5.0
+Requires-Dist: netifaces>=0.11.0
+Requires-Dist: python-nmap>=0.7.1
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: tqdm>=4.66.0
+Requires-Dist: click>=8.1.7
+Requires-Dist: rich>=13.7.0
+Requires-Dist: cryptography>=41.0.7
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
